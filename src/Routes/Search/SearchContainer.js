@@ -40,8 +40,8 @@ export default class extends React.Component {
       const {
         data: { results: tvResult },
       } = await tvApi.search(searchTerm);
+      //throw Error();
       this.setState({ movieResult, tvResult });
-      console.log('tv', tvResult);
     } catch {
       this.setState({ error: `Can't find your ${searchTerm}` });
     } finally {
