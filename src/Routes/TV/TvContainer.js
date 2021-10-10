@@ -1,4 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
+import { tvApi } from 'api';
 import React from 'react';
 import TvPresenter from './TvPresenter';
 
@@ -10,8 +11,29 @@ export default class extends React.Component {
     error: null,
     loading: true,
   };
+
+  async componentDidMount() {
+    try {
+      const {
+        data: { results: topRated },
+      } = await tvApi.topRated();
+      const {
+        data: { results: popular },
+      } = await tvApi.popular();
+      const {
+        data: { results: airingToday },
+      } = await tvApi.airingToday();
+
+      this.setState({ topRated, popular, airingToday });
+    } catch {
+      this.setState({ error: "Can't find the Show" });
+    } finally {
+      this.setState({ loading: false });
+    }
+  }
   render() {
     const { topRated, popular, airingToday, error, loading } = this.state;
+    console.log(this.state);
     return (
       <TvPresenter
         topRated={topRated}
