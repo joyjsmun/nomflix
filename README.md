@@ -1,6 +1,6 @@
 # Nomflix 2021
 
-Learning React and ES6 by building a Movie Discovery App.
+Using React and ES6 by building a Movie Discovery App.
 
 ## Screens
 
@@ -20,7 +20,7 @@ Learning React and ES6 by building a Movie Discovery App.
 - [x] Movie Detail
 - [x] Search(Movie,TV)
 
-## Code Challenge
+## Code Challenges
 
 - [ ] IMDB Link
 - [ ] Tabs inside of Movie / Show Details (Youtube Videos, Production Company & Countries)
