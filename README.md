@@ -2,6 +2,10 @@
 
 Using React and ES6 by building a Movie Discovery App.
 
+## Preview
+
+https://joyjsmun.github.io/nomflix
+
 ## Screens
 
 - [x] Home
@@ -28,7 +32,3 @@ Using React and ES6 by building a Movie Discovery App.
 - [ ] Collections Link
 - [ ] Collections Route
 - [ ] On TV Show, Show seasons and creators
-
-## Preview
-
-https://joyjsmun.github.io/nomflix
