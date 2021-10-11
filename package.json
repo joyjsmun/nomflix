@@ -31,7 +31,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://elastic-mclean-2bd28a.netlify.app/tv",
+  "homepage": "https://joyjsmun.github.io/nomflix",
   "browserslist": {
     "production": [
       ">0.2%",
