@@ -22,8 +22,13 @@ Using React and ES6 by building a Movie Discovery App.
 
 ## Code Challenges
 
+- [ ] Fix : Search on online...
 - [ ] IMDB Link
 - [ ] Tabs inside of Movie / Show Details (Youtube Videos, Production Company & Countries)
 - [ ] Collections Link
 - [ ] Collections Route
 - [ ] On TV Show, Show seasons and creators
+
+## Preview
+
+https://joyjsmun.github.io/nomflix
